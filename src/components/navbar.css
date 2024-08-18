@@ -1,0 +1,58 @@
+/* navbar.css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.first, ul.second {
+    display: flex;
+    gap: 15px;
+}
+
+ul.first li, ul.second li {
+    display: inline;
+}
+
+ul.first li a, ul.second li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.first li a:hover, ul.second li a:hover {
+    text-decoration: underline;
+}
+
+.phn {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    ul.first {
+        display: none;
+    }
+    
+    .phn {
+        display: block;
+    }
+    
+    ul.second {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
