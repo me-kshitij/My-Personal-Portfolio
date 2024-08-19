@@ -2,10 +2,10 @@ import React from 'react';
 import './technology.css'; // Import the CSS file for styling
 
 const technologies = () => {
-    const technologies = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', , 'Talwind css', 'Bootstrap', 'Figma',];
+    const technologies = ['HTML', 'CSS', 'JavaScript', 'React', 'Talwind css', 'Bootstrap', 'Figma',];
 
-    const technologies1 = ['Node.js', 'Express js', 'MongoDb', 'PHP', 'SQL', 'Docker'];
-    const technologies2 = ['Python', 'Java', 'C', 'C++','R','Go'];
+    const technologies1 = ['Node.js', 'Express js', 'MongoDb', 'SQL'];
+    const technologies2 = ['Python', 'Java', 'C'];
     const technologies3 = ['Git', 'Github', 'VS Code', 'Postman', 'Netbeans',];
     return (<>
     <h1>Technology</h1>

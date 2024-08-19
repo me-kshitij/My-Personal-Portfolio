@@ -8,7 +8,7 @@ const About = () => {
             <div className="about-content">
                 <img src="../public/image/dp2.jpg" alt="Profile" className="about-image" />
                 <p className="about-text">
-                    Hello! I'm Pramish, a passionate web developer with experience in creating dynamic and responsive web applications. I specialize in technologies such as React, Node.js, and modern frontend frameworks. My goal is to build user-friendly and innovative solutions that solve real-world problems.
+                    Hello! I'm Kshitij Kumar, a passionate web developer with experience in creating dynamic and responsive web applications. I specialize in technologies such as React, Node.js, and modern frontend frameworks. My goal is to build user-friendly and innovative solutions that solve real-world problems.
                 </p>
                 <p className="about-text">
                     With a strong background in both frontend and backend development, I enjoy tackling challenges and learning new technologies. When I'm not coding, you can find me exploring the latest tech trends or working on personal projects.
