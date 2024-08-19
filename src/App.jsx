@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/navbar';
-import Technology from './components/Technology';
+import Technology from './components/technology';
 import Hero from './components/Hero';
-import Qualification from './components/Qualification';
+import Qualification from './components/qualification';
 import Project from './components/project';
-import Contact from './components/Contact';
+import Contact from './components/contact';
 import About from './components/about';
 // import ParticleBackground from './components/ParticleBackground'
 import './App.css';
